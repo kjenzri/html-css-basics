@@ -1,0 +1,14 @@
+h1{
+    background-color: antiquewhite;
+    width: 500px; /*not ignored because outer display is block*/
+    height: 200px;/*not ignored because outer display is block*/
+    border: 1px solid salmon;
+}
+span{
+    background-color: aliceblue;
+    width: 500px; /*is ignored because outer display is inline*/
+    height: 100px; /*is ignored because outer display is inline*/
+}
+a{
+    background-color: aquamarine;
+}
